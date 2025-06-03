@@ -44,25 +44,10 @@ Ensure the following are installed on your system:
    ```
 
 2. **Create the Database**
-   - Import `game_shop (2).sql` into MySQL using phpMyAdmin or CLI.
    - Update database credentials in `db.php`.
 
 3. **Configure `db.php`**
-   ```php
-   <?php
-   $servername = "localhost";
-   $username = "root";
-   $password = "";
-   $dbname = "your database name";
-
-   $conn = new mysqli($servername, $username, $password);
-   if ($conn->connect_error) {
-       die("Connection Failed: ". $conn->connect_error);
-   } else {
-       echo "Connection Established";
-       mysqli_select_db($conn, $dbname);
-   }
-   ?>
+   
    ```
 
 4. **Install Dependencies**
