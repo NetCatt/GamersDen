@@ -53,7 +53,7 @@ Ensure the following are installed on your system:
    $servername = "localhost";
    $username = "root";
    $password = "";
-   $dbname = "light";
+   $dbname = "your database name";
 
    $conn = new mysqli($servername, $username, $password);
    if ($conn->connect_error) {
