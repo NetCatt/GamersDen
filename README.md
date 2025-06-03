@@ -40,7 +40,7 @@ Ensure the following are installed on your system:
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/NetCatt/GamersDen.git
    ```
 
 2. **Create the Database**
