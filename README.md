@@ -48,7 +48,6 @@ Ensure the following are installed on your system:
 
 3. **Configure `db.php`**
    
-   ```
 
 4. **Install Dependencies**
    - No external dependencies needed beyond the prerequisites.
